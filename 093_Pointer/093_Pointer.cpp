@@ -14,4 +14,5 @@ void mahasiswa::showNim() { //implementasi method diluar class
 int main()
 {
 	mahasiswa mhs{ 1 }; // object mhs 
+	mhs.showNim();      // Member Acces Operator
 }
